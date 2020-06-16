@@ -35,3 +35,4 @@ set ignorecase smartcase
 set cursorline
 set mouse=a
 set splitbelow splitright
+set autoindent smartindent

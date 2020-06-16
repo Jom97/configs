@@ -58,7 +58,6 @@ if [ -f "$lfcd" ]; then
 fi
 bindkey -s '^o' 'lfcd\n'  # zsh
 
-#Colored man pages
 man() {
     LESS_TERMCAP_md=$'\e[01;36m' \
     LESS_TERMCAP_me=$'\e[0m' \

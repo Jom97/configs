@@ -1,0 +1,28 @@
+ctrl + alt + j
+	chromium
+ctrl + alt + k
+	gnome-terminal	
+ctrl + alt + l
+	nautilus
+ctrl + alt  + Return
+	rofi -show drun 
+ctrl + alt + c
+	$HOME/Test/config-list
+ctrl + alt + s
+	screenkey
+
+shift + alt + k
+	pactl set-sink-volume @DEFAULT_SINK@ +5%
+shift + alt + j
+	pactl set-sink-volume @DEFAULT_SINK@ -5%
+shift + alt + m
+	pactl set-sink-mute @DEFAULT_SINK@ toggle
+shift + alt + p
+	dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
+shift + alt + h
+	dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
+shift + alt + l
+	dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next
+
+#ctrl + alt + u
+#ctrl + alt + i
