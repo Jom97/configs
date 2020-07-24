@@ -19,7 +19,9 @@ Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 
 " My Settings
+" Make the status line always appear
 set laststatus=2
+" True color terminal
 set termguicolors
 let g:gruvbox_italic=1
 let g:lightline = {
@@ -35,4 +37,5 @@ set ignorecase smartcase
 set cursorline
 set mouse=a
 set splitbelow splitright
-set autoindent smartindent
+set autoindent smarttab expandtab
+set shiftwidth=4 tabstop=4 softtabstop=4

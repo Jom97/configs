@@ -5,9 +5,9 @@ ctrl + alt + k
 ctrl + alt + l
 	nautilus
 ctrl + alt  + Return
-	rofi -show drun 
-ctrl + alt + c
-	$HOME/Test/config-list
+    rofi -show "window" -show-icons -window-match-fields "class" -window-format "\{c\}\{t\}"
+ctrl + alt + m 
+	$HOME/Test/scripts/movie-open
 ctrl + alt + s
 	screenkey
 
